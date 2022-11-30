@@ -12,13 +12,24 @@ for i in range(10):
         print("End of loop")
         break
     elif new_input>0 or new_input<0:
+        new_list.append(new_input)
+        k= new_list.count(new_input)
+        if k>1:
+            print("Already in the lest")
+            del new_list[-1]
         
+            continue
+        #else:
+            new_list.append(new_input)
+        """
         if new_input not in new_list:
             new_list.append(new_input)
             #new_list.remove(new_input)
             #print("Already in the lest")
+            
         else:
             print("Already in the lest")   
             continue
         #print(new_list)
+        """
 print(new_list)
