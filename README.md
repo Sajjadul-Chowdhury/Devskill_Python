@@ -7,7 +7,9 @@ Project Summary: As part of this project, users will provide a valid card number
 Input From User:
 1.  Card Number
 2.  Pin
-Validate Card Number and Pin
+
+(Validate Card Number and Pin)
+
 3. Reason for using the card
 	a) Withdraw
 	b) Deposit
